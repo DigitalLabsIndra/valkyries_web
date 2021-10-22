@@ -1,0 +1,193 @@
+/*
+Teamplate Name: invenit 
+Version: 1.0
+*/
+/* Type your CSS Here */
+/*https://www.templatemonster.com/website-templates/invenit-multipurpose-business-and-it-solution-responsive-website-template-161038.html
+https://www.templatemonster.com -> Invenit template (HTML5)
+
+*>
+
+/*margenes izquierdos y derechos*/
+/*
+body*/
+/*.witr_slick_slider_area.home6_slick_slider, .invenit_touch_area.invenit_touch_contect_area
+{
+   padding-left: 20px;
+   padding-right: 20px;
+}*/
+
+
+/* INICIO botón home clickable */
+.col-md-3
+{
+   max-width:26% ;
+}
+
+.col-lg-9
+{
+   max-width:74% ;
+}
+
+/* FIN botón home clickable */
+
+.custom-menuitem.a
+{
+   font-size:12px;
+}
+
+/*iconos sociales juntar*/
+.boton_social
+{
+   margin: 0 0 0 0 !important;	
+   padding :0 0 0 0 !important;	
+   float:left;
+}	
+
+	
+
+/*logo móvil es transparente*/
+.mobile_logo_area
+{
+   background: #000000;
+}
+
+/*margen superior primer slider*/
+.witr_ds_slider_content
+{
+   margin-top: -20%;
+}
+
+/*correción de botón de 'subir arriba'*/
+a#scrollUp 
+{
+   right: 1%;
+   bottom: 1%;
+}
+
+/*??*/
+.col-xl-11
+{
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+
+/*colores del footer*/
+.footer-middle
+{
+   border-bottom: 0;
+   padding-bottom: 2px;
+   padding: 50px 0 2px !important;
+}
+
+/*colores de disclaimer*/
+.class_disclaimer
+{
+  font-size: 12px; 
+  color: #656565 !important;
+}
+
+/* INICIsubmenus  colores*/
+.current_mobile
+{
+  background: #6aacc6 !important;
+}
+
+/*submenus  colores*/
+.grayed_out
+{
+  background: #444 !important;
+}
+
+/*submenus  colores*/
+.menu-item-has-children .custom-menuitem
+{
+   background: #000000;
+}
+
+
+.invenit_menu ul .sub-menu
+{
+   /*background:#18e0fe;*/
+   background: #000000;
+   
+}
+
+.invenit_menu ul .sub-menu a:hover 
+{
+   background: #18e0fe !important;
+   color: #CC6600 !important;
+
+}
+
+/*submenus  colores*/
+.submadre
+{
+ /*  color:#000000 !important;*/
+}
+
+/*menú móvil posición y botón*/
+.mean-bar::before{
+   content:"≡" !important;	
+   font-size: 36px !important;
+   position:relative;
+   top: 0% !important;
+   pointer-events: none; 
+
+}
+
+/*menú móvil enteramente clickable*/
+.mean-container a.meanmenu-reveal{
+   padding-right: 100%;
+   padding-left: 0%;
+}
+
+
+/*flechas slide (me temo que la posición es absoluta dentro del cuadro (coreo)*/
+
+.slick-next, .slick-prev
+{
+   top: 70% !important;
+}
+
+/*logo CE footer*/
+.logo_ue_footer
+{
+   margin:auto !important;
+   max-width: 150px;
+   max-height: 150px;
+   margin-bottom: 50px !important;
+}
+
+/*color footer*/
+.footer-middle
+{
+   background: #C4C4C4;
+}
+
+/*centrar imagen en slides (sobre todo en móviles*/
+.witr_ds_content_area.slick-slide
+{
+   background-repeat:no-repeat;
+   background-position: center center;
+}
+
+/*url_galería multimedia*/
+.url_galeria
+{
+   color: orange !important;	
+   font-weight: bold;
+   
+}
+/*opacidad video galería*/
+.prot_content
+{
+   opacity: 1;
+}
+
+/*lista de objetivos*/
+.titulo_objetivo
+{
+	color: #000; 
+	font-size: 15px;
+}

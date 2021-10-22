@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--https://www.xul.fr/en-xml-rss.html-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="https://www.ecysap.eu/rss/mainfeed.xml" rel="self" type="application/atom+xml" /> 
+<title>ECYSAP Feed General</title>
+<link>https://www.ecysap.eu</link>
+<description>ECYSAP Feed General</description>
+<image>
+    <title>ECYSAP Feed General</title>
+    <url>https://www.ecysap.eu/assets/images/favicon.png</url>
+    <link>https://www.ecysap.eu/rss/mainfeed.xml</link>
+</image>
+<item>
+<title>ECYSAP Project Kickoff</title>
+<link>https://twitter.com/ecysap/status/1364975468689190914</link>
+<description>Today, #ECYSAP Project Kickoff Meeting has been held, with the participation of all consortium members</description>
+</item> 
+</channel>
+</rss>
+
