@@ -16,7 +16,24 @@ body*/
    padding-left: 20px;
    padding-right: 20px;
 }*/
+/*color por defecto del texto*/
+body{
+	color:#000000 !important; 	
+}
 
+/*cabecera demasiado alta*/
+
+.col-lg-3, .col-md-3, .col-sm-12, .col-xl-2,.col-lg-9,.col-md-9,.col-sm-12
+{
+	height:75%;
+}
+
+/*reducir menu superior*/
+.invenit_menu > ul > li > a
+{
+	margin:0 !important;
+
+}
 
 /* INICIO botón home clickable */
 .col-md-3
@@ -34,6 +51,7 @@ body*/
 .custom-menuitem.a
 {
    font-size:12px;
+
 }
 
 /*iconos sociales juntar*/
@@ -49,7 +67,7 @@ body*/
 /*logo móvil es transparente*/
 .mobile_logo_area
 {
-   background: #000000;
+   background: #c2ddb0;
 }
 
 /*margen superior primer slider*/
@@ -102,14 +120,14 @@ a#scrollUp
 /*submenus  colores*/
 .menu-item-has-children .custom-menuitem
 {
-   background: #000000;
+   background: #c2ddb0;
 }
 
 
 .invenit_menu ul .sub-menu
 {
    /*background:#18e0fe;*/
-   background: #000000;
+   background: #c2ddb0;
    
 }
 
@@ -141,13 +159,22 @@ a#scrollUp
    padding-right: 100%;
    padding-left: 0%;
 }
-
-
+/*color barra menus móvil*/
+.mean-bar{
+	background: #749740 !important;
+}
 /*flechas slide (me temo que la posición es absoluta dentro del cuadro (coreo)*/
 
 .slick-next, .slick-prev
 {
    top: 70% !important;
+}
+
+/*logo demasiado padding*/
+.logo{
+	padding-top: 0 !important;
+	margin-top:0 !important;
+	
 }
 
 /*logo CE footer*/
@@ -190,4 +217,42 @@ a#scrollUp
 {
 	color: #000; 
 	font-size: 15px;
+}
+
+/*color fondo menu principal*/
+.invenit_nav_area.prefix,.hbg2 {
+	background:#2e2e2e;
+}
+
+.invenit_nav_area
+{
+	background: #c2ddb0 !important;
+}
+
+/*color texto cabeceras*/
+h1, h2, h3, h4, h5, h6
+{
+	color: #749740 !important;
+}
+h5 a
+{
+	color: #749740 !important;
+}
+/*.text-center 
+{
+	color: #749740 !important;
+}
+*/
+
+
+/*barra iconos concept */
+.iconos_concept
+{
+	margin:100px;
+}
+
+.contacto
+{
+	
+	color:#fff !important;	
 }
