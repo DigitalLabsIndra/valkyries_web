@@ -134,12 +134,19 @@ a#scrollUp
 
 .invenit_menu ul .sub-menu a:hover 
 {
-   background: #18e0fe !important;
-   color: #CC6600 !important;
+   background: #749740 !important;
+  /* color: #CC6600 !important;*/
 
 }
 
-/*submenus  colores*/
+/*colores galería y quizás de menu móvil*/
+
+.current_mobile,.current_menu_item, .page-numbers, .page_numbers current
+{
+	background: #749740 !important ;
+}
+
+/*submenus  colores*/	
 .submadre
 {
  /*  color:#000000 !important;*/
