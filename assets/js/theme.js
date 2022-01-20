@@ -4,7 +4,7 @@
     $('.hamburger').on('click', function() {
         $(this).toggleClass('is-active');
         $(this).next().toggleClass('nav-show')
-    });
+    });	
 	    /*--
     	Mobile Menu
     ------------------------*/
@@ -13,30 +13,32 @@
         meanMenuContainer: ".mobile-menu",
         onePage: true,
     });
-
+	
 	/*---------------------
-	Nivo Slider active js
+	Nivo Slider active js 
 	--------------------- */
 	$('#mainSlider_id2').nivoSlider({
 		directionNav: true,
 		animSpeed: 1000,
+		controlNav:true,
+		controlNavThumbs:true,
 		slices: 18,
 		pauseTime: 6000,
 		pauseOnHover: false,
 		controlNav: false,
 		prevText: '<i class="fas fa-long-arrow-alt-left nivo-prev-icon"></i>',
-		nextText: '<i class="fas fa-long-arrow-alt-right nivo-next-icon"></i>'
+		nextText: '<i class="fas fa-long-arrow-alt-right nivo-next-icon"></i>'					
 	});
 
 
 	/*---------------------
-	witr_slick_active js
+	witr_slick_active js 
 	--------------------- */
 		$('.witr_slick_active').slick({
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 300000,
-			speed: 700,
+			speed: 700,					
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			arrows: true,
@@ -78,12 +80,12 @@
 		  $this.countdown(finalDate, function(event) {
 			$this.html(event.strftime('<span class="cdowns days"><span class="time-counts">%-D</span> <p>Days</p></span> <span class="cdowns hour"><span class="time-counts">%-H</span> <p>Hour</p></span> <span class="cdowns minutes"><span class="time-counts">%M</span> <p>Min</p></span> <span class="cdowns second"> <span><span class="time-counts">%S</span> <p>Sec</p></span>'));
 		  });
-		});
-
-
+		});				
+				
+		
 		/*---------------------
 		 Portfolio Isotope
-		--------------------- */
+		--------------------- */				
 
 		$('.em_load').imagesLoaded(function() {
 
@@ -147,15 +149,15 @@
 					items: 1
 				}
 			}
-		})
-
+		})							
+	
 
 	// Single_blog_testimonial_active Not Change Style
 	$('.Single_blog_testimonial_active').slick({
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			speed: 700,
+			speed: 700,					
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			arrows: true,
@@ -186,14 +188,14 @@
 			// settings: "unslick"
 			// instead of a settings object
 			]
-		});
-
+		});	
+	
 		// TESTIMONIAL invenit
 		$('.testomonial_active').slick({
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			speed: 700,
+			speed: 700,					
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			arrows: true,
@@ -231,7 +233,7 @@
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			speed: 700,
+			speed: 700,					
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			arrows:true,
@@ -263,16 +265,16 @@
 			// instead of a settings object
 			]
 		});
-
-
-
-
+		
+		
+		
+	
 		// TESTIMONIAL invenit_testomonial_page
 		$('.invenit_testomonial_active').slick({
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			speed: 700,
+			speed: 700,					
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			arrows:true,
@@ -304,21 +306,21 @@
 			// instead of a settings object
 			]
 		});
+			
+		
 
-
-
-
+		
 	/*====== Screenshots Slide Slick =======*/
-	$('.imagess_active').slick({
+	$('.imagess_active').slick({	
 
 				infinite: true,
 				autoplay: true,
 				autoplaySpeed: 300000,
-				speed: 700,
+				speed: 700,					
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				centerMode: true,
-				centerPadding: '0',
+				centerPadding: '0',					
 				arrows: true,
 				dots: true,
 				responsive: [
@@ -349,22 +351,22 @@
 				]
 			});
 
-
-
-
+	
+	
+		
 
 
 			/*====== Screenshots Slide Slick =======*/
-			$('.images_id1').slick({
+			$('.images_id1').slick({	
 
 				infinite: true,
 				autoplay: true,
 				autoplaySpeed: 3000,
-				speed: 700,
+				speed: 700,					
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				centerMode: true,
-				centerPadding: '0',
+				centerPadding: '0',					
 				arrows: false,
 				dots: true,
 				responsive: [
@@ -395,17 +397,17 @@
 				]
 			});
 
+				
+		
+		
+		
+		
+		
+		
+		
+		
 
-
-
-
-
-
-
-
-
-
-
+					
 		if ($('.witr_testiSlider').length > 0) {
 			$('.witr_testiSlider').slick({
 				slidesToShow: 1,
@@ -414,7 +416,7 @@
 				asNavFor: '.witr_singleNav',
 				autoplay: true,
 				autoplaySpeed: 3000,
-				speed: 700,
+				speed: 700,				
 			});
 
 			$('.witr_singleNav').slick({
@@ -423,7 +425,7 @@
 				asNavFor: '.witr_testiSlider',
 				arrows: false,
 				autoplaySpeed: 3000,
-				speed: 700,
+				speed: 700,				
 				dots: true,
 				centerMode: true,
 				centerPadding: '0',
@@ -450,26 +452,26 @@
 							slidesToScroll: 1,
 						}
 					}
-				]
+				]								
 			});
-		}
+		}	
+		
+					
+				
 
-
-
-
-
+		
 
 			/*====== Brand Slide Slick =======*/
-			$('.brand_imagess_active').slick({
+			$('.brand_imagess_active').slick({	
 
 				infinite: true,
 				autoplay: true,
 				autoplaySpeed: 2000,
-				speed: 700,
+				speed: 700,					
 				slidesToShow: 5,
 				slidesToScroll: 1,
 				centerMode: true,
-				centerPadding: '',
+				centerPadding: '',					
 				arrows: true,
 				dots: false,
 				responsive: [
@@ -500,7 +502,7 @@
 				]
 			});
 
-
+		
 
 
 
@@ -525,16 +527,16 @@
 
 						});
 
+		
 
 
 
 
-
-
-
+	
+	
 	/*====== foter section =======*/
-
-
+	
+	
 	window.mc4wp = window.mc4wp || {
 		listeners: [],
 		forms: {
@@ -548,7 +550,7 @@
 			}
 		}
 	}
-
+	
 	var witr_cp = $('.witr_circle_id1');
 
 			  witr_cp.circleProgress({
@@ -558,10 +560,10 @@
 				lineCap: 'square',
 				fill: {  gradient: ["#FF5E14", "#FF5E14"]}
 			  });
+	
+	
 
-
-
-    // top quearys menu
+    // top quearys menu 
     var emsmenu = $(".em-quearys-menu i.t-quearys");
     var emscmenu = $(".em-quearys-menu i.t-close");
     var emsinner = $(".em-quearys-inner");
@@ -587,12 +589,12 @@
         // initialise
         headroom.init();
     }
-
+	
     /*---------------------
-    WOW active js
+    WOW active js 
     --------------------- */
     new WOW().init();
-
+	
     /*--------------------------
      scrollUp
     ---------------------------- */
@@ -612,7 +614,7 @@
         infinigall: true
 
     });
-
+		
 	    /*--
     	One Page Nav
     ----------------------------------- */
@@ -627,7 +629,7 @@
         easing: 'swing',
     });
 
-    /*--$(".nav_scroll > li:first-child").addClass("current");
+    $(".nav_scroll > li:first-child").addClass("current");
     /* sticky nav 1 */
     $('.one_page').scrollToFixed({
         preFixed: function() {
@@ -636,8 +638,8 @@
         postFixed: function() {
             $(this).find('.scroll_fixed').addClass('postfix').removeClass('prefix');
         }
-    });
-
+    });	
+		
 	/* sticky nav 2 */
     var headers1 = $('.trp_nav_area');
     $(window).on('scroll', function() {
@@ -646,14 +648,14 @@
             headers1.addClass('hbg2');
         } else {
             headers1.removeClass('hbg2');
-        }
+        }		
 
-    });
-
+    });		
+	
 	$('.counter').counterUp({
 		delay: 10,
 		time: 1000
-	});
+	});	
 
     /*--------------------------
     	blog messonary
@@ -672,8 +674,8 @@
         };
     });
 
-
-
+  
+	
 	// Mouse Direction Hover Iffect
 	$('.single_protfolio').directionalHover();
 
@@ -683,8 +685,8 @@
 		// Linear or swing
 		easing: "swing",
 		speed: 50
-	});
-
+	});	
+		
 	/* Bootstrap Accordion  */
 	$('.faq-part .card').each(function () {
 		var $this = $(this);
@@ -700,21 +702,21 @@
 	});
 
 
-
+		
   $.fn.BeerSlider = function ( options ) {
     options = options || {};
     return this.each(function() {
       new BeerSlider(this, options);
     });
   };
-  $('.beer-slider').BeerSlider({start: 50});
+  $('.beer-slider').BeerSlider({start: 50});		
 
 
 	$('.blogcar_idblog1').slick({
 					infinite: true,
 					autoplay: true,
 					autoplaySpeed: 3000,
-					speed: 700,
+					speed: 700,					
 					slidesToShow: 3,
 					slidesToScroll: 1,
 					arrows: false,
@@ -757,15 +759,15 @@
 				lineCap: 'round',
 				fill: {  gradient: ["#ff0000", "#FE0040"]}
 			  });
-
-
-
+			  
+			  
+			  
 		// TESTIMONIAL themex_testomonial_page
 		$('.themex_testomonial_active').slick({
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			speed: 700,
+			speed: 700,					
 			slidesToShow: 2,
 			slidesToScroll: 1,
 			arrows:false,
@@ -797,12 +799,12 @@
 			// instead of a settings object
 			]
 		});
-
+			
 		$('.casul_active').slick({
 					infinite: true,
 					autoplay: true,
 					autoplaySpeed: 3000,
-					speed: 1000,
+					speed: 1000,					
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					arrows: true,
@@ -834,8 +836,8 @@
 					// instead of a settings object
 					]
 				});
-
-
+				
+				
 						if ($('.busi_testiSlider').length > 0) {
 							 $('.busi_testiSlider').slick({
 								 slidesToShow: 1,
@@ -843,7 +845,7 @@
 								 arrows: false,
 								 asNavFor: '.busi_singleNav',
 								 autoplay: true,
-
+								
 							 });
 
 							 $('.busi_singleNav').slick({
@@ -877,10 +879,12 @@
 											 slidesToScroll: 1,
 										 }
 									 }
-								 ]
+								 ]								
 							 });
-						}
-
-
+						}	
+							
+	
 
 })(jQuery);
+
+
