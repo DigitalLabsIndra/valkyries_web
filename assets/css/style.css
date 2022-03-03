@@ -18,9 +18,11 @@ font-size:18px;
 line-height:1.6;
 }
 
+/*TEXTO GENERAL*/
+
 p {
 font-style:normal;
-font-size:20px;
+font-size:18px;
 margin:0;
 }
 
@@ -7820,7 +7822,7 @@ color:#8DB450 ;
 margin:11px 6px 15px;
 }
 
-.wblog-content>a {
+/*.wblog-content>a {
 font-size:16px;
 font-weight:500;
 padding:9px 30px;
@@ -7838,6 +7840,7 @@ color:#333333;
 background:#8DB450 ;
 color:#fff;
 }
+*/
 
 .wblog-content.blog-content-5 {
  padding: 15px 20px 15px;
@@ -8472,13 +8475,13 @@ opacity:1;
 margin:0;
 text-transform:capitalize;
 color:#fff;
-font-size:18px;
+font-size:16px;
 }
 
 .prot_content h3 a {
 color:#fff;
 font-size:23px;
-font-weight:700;
+font-weight:600;
 text-transform:capitalize;
 transition:.5s;
 }
@@ -11860,7 +11863,7 @@ padding:0 0 9px;
 
 .invenit-blog-meta-left a,.invenit-blog-meta-left span {
 color:#666;
-font-size:13px;
+font-size:16px;
 margin-right:5px;
 text-transform:capitalize;
 -webkit-transition:all .3s ease 0s;
