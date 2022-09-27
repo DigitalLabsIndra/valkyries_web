@@ -137,7 +137,7 @@ font-weight:400;
 
 a,address,cite,dfn,em,i,li,ol,ul,var {
 font-style:normal;
-font-weight:400;
+font-weight:100;
 }
 
 ::-moz-selection {
@@ -15619,7 +15619,7 @@ justify-content:center;
 }
 
 .witr_taba_style1 .nav-tabs .nav-item {
-margin-bottom:15px;
+margin-bottom:10px;
 text-align:center;
 }
 .witr_taba_style1 .nav-tabs .nav-itemNewsletter {
@@ -15633,8 +15633,8 @@ color:#131414;
 margin-right:0px;
 border:0;
 border-radius:5px;
-font-size:17px;
-padding:10px 10px;
+font-size:14px;
+padding:3px 3px;
 position:relative;
 box-shadow:0 0 25px 2px rgba(196,206,213,.2);
 transition:.5s;
@@ -15642,11 +15642,11 @@ transition:.5s;
 .witr_taba_style1 .nav-tabs .nav-link {
 background:#fff;
 color:#131414;
-margin-right:15px;
+margin-right:0px;
 border:0;
 border-radius:5px;
-font-size:17px;
-padding:26px 40px;
+font-size:14px;
+padding:10px 10px;
 position:relative;
 box-shadow:0 0 25px 2px rgba(196,206,213,.2);
 transition:.5s;
@@ -15679,11 +15679,11 @@ margin:0 5px;
 
 
 .nav-link strong {
-font-size:16px;
+font-size:12px;
 display:inline-block;
 }
 .nav-linkNewsletter strong {
-font-size:16px;
+font-size:12px;
 display:inline-block;
 }
 
