@@ -95,6 +95,8 @@ padding:0;
 
 li {
 list-style:none;
+font-style:normal;
+font-size:17px;
 }
 
 button:focus,input:focus {
@@ -11578,7 +11580,7 @@ padding-right:auto;
 position:absolute;
 left:0;
 top:130%;
-width:197px;
+width:215px;
 text-align:left;
 background:#8DB450 ;
 margin:0;
