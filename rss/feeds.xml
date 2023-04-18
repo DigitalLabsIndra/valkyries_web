@@ -2,14 +2,14 @@
 <!--https://www.xul.fr/en-xml-rss.html-->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<atom:link href="https://www.valkyries-h2020.eu/rss/feeds" rel="self" type="application/atom+xml" /> 
+<atom:link href="https://www.valkyries-h2020.eu/rss/feeds.xml" rel="self" type="application/atom+xml" /> 
 <title>VALKYRIES Newsletters</title>
 <link>https://www.valkyries-h2020.eu</link>
 <description>VALKYRIES Newsletters</description>
 <image>
     <title>VALKYRIES Newsletters</title>
     <url>https://www.valkyries-h2020.eu/assets/img-valkyries/Logos/FAVICON_Valkyries.png</url>
-    <link>https://www.valkyries-h2020.eu/rss/mainfeed.xml</link>
+    <link>https://www.valkyries-h2020.eu/rss/feeds.xml</link>
 </image>
 <item>
 <title>2nd VALKYRIES NEWSLETTER</title>
@@ -19,7 +19,7 @@
 <item>
 <title>1st VALKYRIES NEWSLETTER </title>
 <link>https://www.valkyries-h2020.eu/newsletters/Newsletter_May2022.html</link>
-<description>1st VALKYRIES NEWSLETTER</description>
+<description>May 2022 VALKYRIES NEWSLETTER</description>
 </item> 
 </channel>
 </rss>
