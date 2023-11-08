@@ -2,29 +2,19 @@
 <!--https://www.xul.fr/en-xml-rss.html-->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<atom:link href="https://www.valkyries-h2020.eu/rss/feeds.xml" rel="self" type="application/atom+xml" /> 
-<title>VALKYRIES Newsletters</title>
-<link>https://www.valkyries-h2020.eu</link>
-<description>VALKYRIES Newsletters</description>
+<atom:link href="https://www.eu-guardian.eu/rss/feeds.xml" rel="self" type="application/atom+xml" /> 
+<title>EU-GUARDIAN Newsletters</title>
+<link>https://www.eu-guardian.eu</link>
+<description>EU-GUARDIAN Newsletters</description>
 <image>
-    <title>VALKYRIES Newsletters</title>
-    <url>https://www.valkyries-h2020.eu/assets/img-valkyries/Logos/FAVICON_Valkyries.png</url>
-    <link>https://www.valkyries-h2020.eu/rss/feeds.xml</link>
+    <title>EU-GUARDIAN Newsletters</title>
+    <url>https://www.eu-guardian.eu/assets/img-euguardian/Logos/Imagotipo_Positivo_eguardian.svg</url>
+    <link>https://www.eu-guardian.eu/rss/feeds.xml</link>
 </image>
 <item>
-<item>
-<title>3rd VALKYRIES NEWSLETTER</title>
-<link>https://www.valkyries-h2020.eu/newsletters/Newsletter_March2023.html</link>
-<description>March 2023 Newsletter: Description and Benefits of VALKYRIES</description>
-</item> 
-<title>2nd VALKYRIES NEWSLETTER</title>
-<link>https://www.valkyries-h2020.eu/newsletters/Newsletter_September2022.html</link>
-<description>Sept 2022 Newsletter: Description and Benefits of VALKYRIES</description>
-</item> 
-<item>
-<title>1st VALKYRIES NEWSLETTER </title>
-<link>https://www.valkyries-h2020.eu/newsletters/Newsletter_May2022.html</link>
-<description>May 2022 VALKYRIES NEWSLETTER</description>
+<title>1st EU-GUARDIAN rss entry</title>
+<link>https://www.eu-guardian.eu</link>
+<description>1st EU-GUARDIAN rss entry</description>
 </item> 
 </channel>
 </rss>
